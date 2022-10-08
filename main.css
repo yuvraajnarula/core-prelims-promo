@@ -81,11 +81,12 @@ body {
     display: block;
 }
 .select-slot-div{
-    width: 25vw;
+    width: 20vw;
     height: 30vw;
     background: #111;
-    border-radius: 3.5vw;
-    padding: 15px 35px 25px 15px;
+    border-radius: 3vw;
+    padding: 15px;
+    padding-left: 20px;
     margin-left: 1.5vw;
     position: absolute;
     margin-top: -12.5vw;
@@ -132,35 +133,100 @@ body {
 .flight-list {
     list-style: none;
     margin-left: -2.5vw;
+    display: flex;
 }
 .flight-list li {
-    display: flex;
+    margin-right: .5vw;
     margin-bottom: -1vw;
-    height: 3.5vw;
+    padding: 5px;
+    text-align: center;
+    width: 7.5vw;
+    border-radius: .5vw;
+    background-color: #B68BA6;
 }
 .flight-list li p {
     margin-top: 1vw;
 }
 .video{
-    width: 25vw;
+    width: 20vw;
     height: 30vw;
     float: right;
     background: red;
-    margin-right: 2.5vw;
+    margin-right: 1.5vw;
     border-radius: 3.5vw;
     margin-top: -12.5vw;
 }
 .img-div-1,
-.img-div-2{
-    width: 17.5vw;
-    border-radius: 20px;
-    height: 15vw;
+.flight-board{
+    width: 15vw;
+    border-radius: 2.5vw;
+    height: 18vw;
     background: red;
     position: absolute;
 }
 .img-div-1{
-    margin: 2.5vw 28.5vw;
+    margin: -.5vw 23.5vw;
 }
-.img-div-2{
-    margin: 2.5vw 50.5vw;
+.flight-board{
+    margin: -.5vw 61.5vw;
+    background-color: #92869E;
+}
+.time{
+    color: #d4bcbc !important;
+    margin: 1vw -2.5vw !important;
+}
+.select-slot-div button{
+    border: none;
+    border-radius: 10px;
+    background: #92869E;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 1.25vw;
+    width: 115%;
+    display: block;
+    margin-left: -2.5vw;
+    margin-top: 2vw;
+}
+
+.quote-div
+{
+    display: block;
+    width: 17.5vw;
+    height: 15vw;
+    margin-left: 41.3%;
+    margin-top: 2.5vw;
+    background: #A9ADC6;
+    position: absolute;
+    border-radius: 2vw;
+}
+.quote-div h2{
+    letter-spacing: 1px;
+    color: #111;
+    font-size: 2vw;
+    margin-top: 3.5vw;
+    margin-left: 1.25vw;
+}
+.circle-1,
+.circle-2{
+    width: 10px;
+    height: 10px;
+    background: #111;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 15.5vw;
+}
+.circle-1{
+    margin-top: -5vw;
+}
+.circle-2{
+    margin-top: -2.5vw;
+}
+.rect{
+    width: 10px;
+    height: 17.5px;
+    border-radius: 2.5vw;
+    position: absolute;
+    background-color: #111;
+    margin-top: -4vw;
+    margin-left: 15.5vw;
 }
