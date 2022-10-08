@@ -90,7 +90,7 @@ body {
     width: 20vw;
     height: 30vw;
     background: #111;
-    border-radius: 3vw;
+    border-radius: 2.5vw;
     padding: 15px;
     padding-left: 20px;
     margin-left: 1.5vw;
@@ -174,7 +174,7 @@ body {
     background-size: cover;
     background-position: center;
     margin-right: 1.5vw;
-    border-radius: 3.5vw;
+    border-radius: 2.5vw;
     margin-top: -12.5vw;
 }
 
@@ -316,4 +316,129 @@ body {
 .upcoming h3{
     color: #eee;
     letter-spacing: 1px;
+}
+.about-div
+{
+    height: 80vh;
+    margin-top: 30vw;
+}
+.about-div h1,
+.work h1{
+    font-size: 5vw;
+    margin-top: 10vw;
+    margin-left: 5vw;
+    letter-spacing: 1px;
+}
+
+.about-div p,
+.work p{
+    margin-left: 5vw;
+    font-size: 1.25vw;
+    margin-top: 2.5vw;
+}
+
+.work h1{
+    text-align: right;
+    margin-right: 5vw;
+}
+.work p {
+    float: right;
+    text-align: right;
+    margin-right: 5vw;
+}
+
+.work,.subscription{
+    height:80vh;
+}
+.subscription h1{
+    text-align: center;
+    font-size: 5vw;
+    letter-spacing: 1px;
+}
+.subscription p{
+    text-align: center;
+    margin-top: 2.5vw;
+    font-size: 1.25vw;
+}
+.sub-cards {
+    margin-top:  5vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+.sub-cards li {
+    width: 25vw;
+    height: 35vw;
+    border-radius: 2.5vw;
+}
+.sub-cards li h3{
+    text-align: center;
+    font-size: 2.5vw;
+    margin-top: 2.5vw;
+    letter-spacing: 1px;
+}
+.sub-cards li:nth-child(1){
+    background: #A9ADC6;
+}
+.sub-cards li:nth-child(2){
+    background: #B68BA6;
+}
+.sub-cards li:nth-child(3){
+    background: #92869E;
+}
+.footer{
+    margin-top: 3.5vw;
+    height: 10vh;
+}
+.footer-info
+{
+    display: flex;
+    margin-left: 2.5vw;
+}
+hr{
+    background: rgba(0, 0, 0, 0.05);
+    width: 85%;
+    height: .5vw;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+.footer-logo{
+    background: red;
+    background-size: cover;
+    background-position: center;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 100%;
+}
+.footer-info h2{
+    margin: 1vw 2.5vw;
+}
+.sub-cards h2{
+    font-size: 4vw;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 2.5vw;
+}
+.sub-cards p{
+    margin-top: 5vw;
+    font-size: 1.25vw;
+    font-weight: 600;
+}
+.sub-cards button {
+    border: none;
+    border-radius: 10px;
+    background: #111;
+    font-weight: 600;
+    padding: 10px;
+    color: #eee;
+    letter-spacing: 1px;
+    width: 85%;
+    font-size: 1.25vw;
+    display: block;
+    margin-top: 7vw;
+    margin-left: 7.25%;
 }
