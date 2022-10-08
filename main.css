@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #111;
+}
+
+/* A9ADC6   -1st
+D4BCBC    -2nd
+F5ACA5    -3rd
+92869E    - 4th
+B68BA6   -5th */
+body {
+    background: #d4bcbc;
+}
+
+.nav {
+    display: flex;
+    position: relative;
+}
+
+.nav-logo {
+    background: red;
+    background-size: cover;
+    background-position: center;
+    width: 4vw;
+    height: 4vw;
+    margin-top: 2vw;
+    border-radius: 100%;
+    margin-left: 2vw;
+    position: absolute;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    margin-top: 3.5vw;
+}
+
+.nav ul li {
+    display: block;
+    margin: 0 1.25vw;
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+.nav ul li a {
+    text-decoration: none;
+}
+.landing-div span {
+    font-size: 4vw;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 7.5vw;
+}
+.landing-div span h1{
+    margin-top: 5vw;
+}
+.landing-div p {
+    text-align: center;
+    margin-top: 2.5vw;
+    letter-spacing: 1px;
+    font-size: 1.5vw;
+}
+.landing-div button{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 10vw;
+    font-size: 1.5vw;
+    background: #111;
+    color: #d4bcbc;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    margin: 2.5vw auto;
+    display: block;
+}
+.select-slot-div{
+    width: 25vw;
+    height: 30vw;
+    background: #111;
+    border-radius: 3.5vw;
+    padding: 15px 35px 25px 15px;
+    margin-left: 1.5vw;
+    position: absolute;
+    margin-top: -12.5vw;
+}
+.select-slot-div p{
+    color: #d4bcbc;
+    font-size: 1.25vw;
+    margin: 1.75vw .75vw;
+    letter-spacing: 1px;
+}
+.select-slot-div h2{
+    color: #eee;
+    letter-spacing: 1px;
+    margin: -1vw .75vw;
+}
+.select-slot-div img{
+    position: absolute;
+}
+.line{
+    margin: -10vw 1.25vw;
+    transform: scale(0.25);
+}
+.plane{
+    transform: scale(0.5);
+    margin: 7.5vw -1.1vw;
+}
+.flight-details span{
+    color: #d4bcbc;
+    font-size: 1.3vw;
+    letter-spacing: 1px;
+}
+.flight-details{
+    margin: 3vw 3.5vw;
+    position: absolute;
+}
+.flight-details p{
+    color: #eee;
+    margin-top: .5vw;
+    margin-left: 0vw;
+}
+.to{
+    margin-top: -1vw;
+}
+.flight-list {
+    list-style: none;
+    margin-left: -2.5vw;
+}
+.flight-list li {
+    display: flex;
+    margin-bottom: -1vw;
+    height: 3.5vw;
+}
+.flight-list li p {
+    margin-top: 1vw;
+}
+.video{
+    width: 25vw;
+    height: 30vw;
+    float: right;
+    background: red;
+    margin-right: 2.5vw;
+    border-radius: 3.5vw;
+    margin-top: -12.5vw;
+}
+.img-div-1,
+.img-div-2{
+    width: 17.5vw;
+    border-radius: 20px;
+    height: 15vw;
+    background: red;
+    position: absolute;
+}
+.img-div-1{
+    margin: 2.5vw 28.5vw;
+}
+.img-div-2{
+    margin: 2.5vw 50.5vw;
+}
