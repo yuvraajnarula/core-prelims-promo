@@ -505,6 +505,7 @@ header::after {
     }
     .landing-div{
         margin-top: 15vw;
+        margin-left: -5vw;
     }
     .landing-div span h1{
         font-size: 12.5vw;
@@ -538,12 +539,60 @@ header::after {
         background-position: center;
         background-size: cover;
     }
-    .about-div,.work,.subscription{
+    .about-div{
         text-align: center;
-        margin-left: -2.5vw;
+        margin-left: -5vw;
         margin-top: 10vw;
     }
-    .about-div h1,.work h1,.subscription h1{
-        font-size: 7.5vw !important;
+    .work h1,.subscription h1{
+        text-align: center;
+        margin-top: -20vw;
+    }
+    .about-div h1,.work h1{
+        font-size: 7.5vw ;
+    }
+    .about-div p{
+        font-size: 2.5vw;
+    }
+    .work p {
+        font-size: 2.5vw;
+        text-align: center;
+        font-weight: 400;
+    }
+    .subscription h1{
+        font-size: 7.5vw;
+    }
+    .subscription p{
+        font-size: 2.5vw;
+    }
+    .sub-cards{
+        display: grid;
+    }
+    .sub-cards li{
+        width: 45vw;
+        height: 60vw;
+        margin-bottom: 6vw;
+    }
+    .sub-cards li button{
+        font-size:2.5vw;
+        margin-top: 5vw;
+    }
+    .sub-cards h2{
+        font-size: 7.5vw;
+    }
+    .sub-cards h3{
+        font-size: 6.5vw !important;
+        margin-top: 5vw !important;
+    }
+    hr{
+        margin-top: 15vw;
+    }
+    .footer-info{
+        margin-top: 7.5vw;
+    }
+    .footer-logo{
+        width: 7.5vw;
+        height: 7.5vw;
+        margin-top: 1.25vw;
     }
 }
