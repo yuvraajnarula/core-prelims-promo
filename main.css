@@ -278,33 +278,39 @@ body {
     margin-top: 18.5vw;
     letter-spacing: 1px;
 }
-.video h2{
+
+.video h2 {
     margin-left: 1.5vw;
     margin-top: 2.5vw;
 }
-.user-info{
+
+.user-info {
     display: flex;
     margin: 1.75vw 1.2vw;
 }
-.pfp{
+
+.pfp {
     width: 1.2vw;
     height: 1.2vw;
     border-radius: 100%;
     padding: 1.5vw;
-    background: linear-gradient(96deg, #B68BA6,#A9ADC6,#D4BCBC);
+    background: linear-gradient(96deg, #B68BA6, #A9ADC6, #D4BCBC);
 }
+
 .user-info p {
     font-size: 1.5vw;
     margin: .5vw 1vw;
     font-weight: 600;
 }
-.upcoming-title{
+
+.upcoming-title {
     margin: -1vw 1.5vw;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 3vw;
 }
-.upcoming{
+
+.upcoming {
     text-align: center;
     background-color: #111;
     border-radius: 10px;
@@ -313,17 +319,19 @@ body {
     margin-top: .5vw;
     margin-left: 1.5vw;
 }
-.upcoming h3{
+
+.upcoming h3 {
     color: #eee;
     letter-spacing: 1px;
 }
-.about-div
-{
+
+.about-div {
     height: 80vh;
     margin-top: 30vw;
 }
+
 .about-div h1,
-.work h1{
+.work h1 {
     font-size: 5vw;
     margin-top: 10vw;
     margin-left: 5vw;
@@ -331,73 +339,85 @@ body {
 }
 
 .about-div p,
-.work p{
+.work p {
     margin-left: 5vw;
     font-size: 1.25vw;
     margin-top: 2.5vw;
 }
 
-.work h1{
+.work h1 {
     text-align: right;
     margin-right: 5vw;
 }
+
 .work p {
     float: right;
     text-align: right;
     margin-right: 5vw;
 }
 
-.work,.subscription{
-    height:80vh;
+.work,
+.subscription {
+    height: 80vh;
 }
-.subscription h1{
+
+.subscription h1 {
     text-align: center;
     font-size: 5vw;
     letter-spacing: 1px;
 }
-.subscription p{
+
+.subscription p {
     text-align: center;
     margin-top: 2.5vw;
     font-size: 1.25vw;
 }
+
 .sub-cards {
-    margin-top:  5vw;
+    margin-top: 5vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
     list-style: none;
 }
+
 .sub-cards li {
     width: 25vw;
     height: 35vw;
     border-radius: 2.5vw;
 }
-.sub-cards li h3{
+
+.sub-cards li h3 {
     text-align: center;
     font-size: 2.5vw;
     margin-top: 2.5vw;
     letter-spacing: 1px;
 }
-.sub-cards li:nth-child(1){
+
+.sub-cards li:nth-child(1) {
     background: #A9ADC6;
 }
-.sub-cards li:nth-child(2){
+
+.sub-cards li:nth-child(2) {
     background: #B68BA6;
 }
-.sub-cards li:nth-child(3){
+
+.sub-cards li:nth-child(3) {
     background: #92869E;
 }
-.footer{
+
+.footer {
     margin-top: 3.5vw;
     height: 10vh;
 }
-.footer-info
-{
+
+.footer-info {
     display: flex;
     margin-left: 2.5vw;
 }
-hr{
+
+hr {
     background: rgba(0, 0, 0, 0.05);
     width: 85%;
     height: .5vw;
@@ -406,7 +426,8 @@ hr{
     position: relative;
     margin: auto;
 }
-.footer-logo{
+
+.footer-logo {
     background: red;
     background-size: cover;
     background-position: center;
@@ -414,20 +435,24 @@ hr{
     height: 4vw;
     border-radius: 100%;
 }
-.footer-info h2{
+
+.footer-info h2 {
     margin: 1vw 2.5vw;
 }
-.sub-cards h2{
+
+.sub-cards h2 {
     font-size: 4vw;
     letter-spacing: 1px;
     text-align: center;
     margin-top: 2.5vw;
 }
-.sub-cards p{
+
+.sub-cards p {
     margin-top: 5vw;
     font-size: 1.25vw;
     font-weight: 600;
 }
+
 .sub-cards button {
     border: none;
     border-radius: 10px;
@@ -441,4 +466,84 @@ hr{
     display: block;
     margin-top: 7vw;
     margin-left: 7.25%;
+}
+
+header {
+    display: none;
+}
+
+header {
+    background: #E54B4B;
+    color: #EBEBD3;
+    padding: 1em 0;
+    position: relative;
+}
+
+header::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.logo {
+    float: left;
+    font-size: 1rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.logo span {
+    font-weight: 400;
+}
+.img-div-2{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+    .landing-div{
+        margin-top: 15vw;
+    }
+    .landing-div span h1{
+        font-size: 12.5vw;
+        line-height: 10vw;
+    }
+    .landing-div p{
+        font-size: 2.5vw;
+        font-weight: 600;
+        margin-top: 5vw;
+    }
+    .landing-div button{
+        border-radius: 2vw !important;
+        transform: scale(2);
+        width: 15vw;
+        margin-top: 7.5vw;
+    }
+    .select-slot-div,
+    .video,
+    .quote-div,
+    .flight-board,
+    .img-div-1{
+        display: none;
+    }
+    .img-div-2{
+        display: block;
+        margin-top: 7.5vw;
+        margin-left: 21.5%;
+        width: 60vw;
+        height: 55vw;
+        background: url('./assets/images/plane.svg');
+        background-position: center;
+        background-size: cover;
+    }
+    .about-div,.work,.subscription{
+        text-align: center;
+        margin-left: -2.5vw;
+        margin-top: 10vw;
+    }
+    .about-div h1,.work h1,.subscription h1{
+        font-size: 7.5vw !important;
+    }
 }
