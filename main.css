@@ -497,7 +497,7 @@ header::after {
     font-weight: 400;
 }
 .img-div-2{
-    display: none;
+    display: none !important;
 }
 @media screen and (max-width: 768px) {
     .nav {
@@ -530,7 +530,7 @@ header::after {
         display: none;
     }
     .img-div-2{
-        display: block;
+        display: block !important;
         margin-top: 7.5vw;
         margin-left: 21.5%;
         width: 60vw;
