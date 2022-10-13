@@ -448,7 +448,7 @@ hr {
     font-weight: 400;
 }
 .img-div-2{
-    display: none;
+    display: none !important;
 }
 .navbar-demo {
     display: table;
@@ -525,7 +525,7 @@ hr {
         display: none;
     }
     .img-div-2{
-        display: block;
+        display: block !important;
         margin-top: 7.5vw;
         margin-left: 21.5%;
         width: 60vw;
