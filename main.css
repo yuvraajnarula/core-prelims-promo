@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #111;
+    scroll-behavior: smooth;
 }
 
 /* A9ADC6   -1st
@@ -14,6 +15,7 @@ F5ACA5    -3rd
 92869E    - 4th
 B68BA6   -5th */
 body {
+
     background: #d4bcbc;
     overflow-x: hidden;
 }
@@ -492,7 +494,7 @@ hr {
     position: relative;
 }
 .navbar-demo button.menu-btn {
-    display:none;
+    display: none;
 }
 @media screen and (max-width: 768px) {
     .nav {
@@ -597,5 +599,8 @@ hr {
         transform: scale(.25);
         margin-left: -105vw;
         margin-top: -35vw;
+    }
+    .navbar-demo button.menu-btn {
+        display: block;
     }
 }
